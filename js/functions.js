@@ -7,7 +7,18 @@ new AjaxUpload('upload_button', {
   responseType: false,
   onChange: function(file, extension){},
   onSubmit: function(file, extension) {
-  	$('#loader').load('inc/loader.html');
+  	
+		// check for valid file type
+		if (! (extension && /^(jpg|png|txt|jpeg|gif)$/i.test(extension))){
+			// extension is not allowed
+	    alert('Error: invalid file extension');
+	    // cancel upload
+	    return false;
+    }
+		
+		// display loader
+		$('#loader').load('inc/loader.html');
+		
   },
   onComplete: function(file, response) {
   	alert(response);
@@ -17,6 +28,7 @@ new AjaxUpload('upload_button', {
   	} else {
   		$('#loader').load('inc/failure.html');
   	}
+
   }
 });
 });
