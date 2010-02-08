@@ -28,7 +28,7 @@ new AjaxUpload('upload_button', {
   onSubmit: function(file, extension) {
   	
 		// check for valid file type
-		if (! (extension && /^(jpg|png|jpeg|gif)$/i.test(extension))){
+		if (! (extension && /^(jpg|png|txt|jpeg|gif)$/i.test(extension))){
 			// extension is not allowed
 	    alert('Error: invalid file extension');
 	    // cancel upload
@@ -45,6 +45,7 @@ new AjaxUpload('upload_button', {
   // @param response server response
   onComplete: function(file, response) {
   	$('#loader').load('inc/success.html');
+		alert(response);
   }
 });
 });
