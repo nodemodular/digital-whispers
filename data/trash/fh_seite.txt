@@ -1,0 +1,28 @@
+root seite festlegen mit seitentitel
+template anlegen
+css_style_content includen bei template (include static)
+templates nen ordner anlegen aufm ftp
+
+menu.value = nur diese anzeigen
+menu.exclude = diese nicht anzeigen
+
+menu.act = aktiv
+
+entrylever = hierarchie des menüs (1 = hauptmenü, 2 = untermenü)
+
+hauptseite, root-level aktivieren
+
+short_cut, leitet weiter auf andere seite
+
+kein IE 6
+
+tt_news installieren
+allgemeines plugin bei inhalt einfügen
+erweiterung: plugin nachrichten einfügen
+
+News seite erstellen
+darunter: news detail seite
+& ordner (storage) << angeben bei der newsseite selber
+
+Newsdetailseite SINGLE angeben
+vorlage, sonstige eigenschaften, zurück angeben

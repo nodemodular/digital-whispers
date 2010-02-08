@@ -4,7 +4,7 @@
 		$host = "localhost";
 		$user = "root"; 
 		$pass = "";
-		$db	  = "isv_local";
+		$db	  = "digitalwhispers";
 	
 		$link = mysql_connect($host, $user, $pass)
 	  	 or die("Keine Verbindung möglich: " . mysql_error());
@@ -13,7 +13,7 @@
 	} else { 
 
 		$host = "localhost";
-		$user = "digitalWhispers"; 
+		$user = "digitalwhispers"; 
 		$pass = "jk39edjn3";
 		$db	  = "stillesmail";
 	
