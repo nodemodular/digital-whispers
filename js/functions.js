@@ -25,13 +25,15 @@ new AjaxUpload('upload_button', {
   // You can return false to cancel upload
   // @param file basename of uploaded file
   // @param extension of that file
-  onSubmit: function(file, extension) {  },
+  onSubmit: function(file, extension) {
+  	$('#loader').load('inc/loader.html');
+  },
   // Fired when file upload is completed
   // WARNING! DO NOT USE "FALSE" STRING AS A RESPONSE!
   // @param file basename of uploaded file
   // @param response server response
   onComplete: function(file, response) {
-	  alert(file + " / " + response);
+  	$('#loader').load('inc/success.html');
   }
 });
 });

@@ -13,6 +13,8 @@
 <body>
 	<div id="wrap">
 		<a id="upload_button">your file</a>
+		
+	<div id="loader"></div>	
 
 	</div>
 </body>
