@@ -1,5 +1,7 @@
 <?php
 
+include_once 'conn.php';
+
 $uploaddir = '../data/trash/';
 $uploadfile = $uploaddir . basename($_FILES['userfile']['name']);
 
