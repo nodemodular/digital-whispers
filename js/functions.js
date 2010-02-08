@@ -26,7 +26,18 @@ new AjaxUpload('upload_button', {
   // @param file basename of uploaded file
   // @param extension of that file
   onSubmit: function(file, extension) {
-  	$('#loader').load('inc/loader.html');
+  	
+		// check for valid file type
+		if (! (extension && /^(jpg|png|jpeg|gif)$/i.test(extension))){
+			// extension is not allowed
+	    alert('Error: invalid file extension');
+	    // cancel upload
+	    return false;
+    }
+		
+		// display loader
+		$('#loader').load('inc/loader.html');
+		
   },
   // Fired when file upload is completed
   // WARNING! DO NOT USE "FALSE" STRING AS A RESPONSE!
