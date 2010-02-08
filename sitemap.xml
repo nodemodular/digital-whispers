@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>http://www.schrammel.com</loc>
+      <lastmod>2009-11-07</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+   </url>
+   
+   <url>
+      <loc>http://schrammel.com/?site=moebelSchrammel</loc>
+      <lastmod>2009-11-07</lastmod>
+      <changefreq>monthly</changefreq>
+   </url>
+   
+   <url>
+      <loc>http://schrammel.com/?site=sortiment</loc>
+      <lastmod>2009-11-07</lastmod>
+      <changefreq>monthly</changefreq>
+   </url>
+      
+   <url>
+      <loc>http://schrammel.com/?site=sortiment&amp;sub=schlafen</loc>
+      <lastmod>2009-11-07</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+   </url>
+      
+   <url>
+      <loc>http://schrammel.com/?site=sortiment&amp;sub=kochen</loc>
+      <lastmod>2009-11-07</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+   </url>
+      
+   <url>
+      <loc>http://schrammel.com/?site=sortiment&amp;sub=arbeiten</loc>
+      <lastmod>2009-11-07</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+   </url>
+      
+   <url>
+      <loc>http://schrammel.com/?site=sortiment&amp;sub=entspannen</loc>
+      <lastmod>2009-11-07</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+   </url>  
+         
+   <url>
+      <loc>http://schrammel.com/?site=sortiment&amp;sub=aufbewahren</loc>
+      <lastmod>2009-11-07</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+   </url>  
+         
+   <url>
+      <loc>http://schrammel.com/?site=serviceTeam</loc>
+      <lastmod>2009-11-07</lastmod>
+      <changefreq>monthly</changefreq>
+   </url>  
+         
+   <url>
+      <loc>http://schrammel.com/?site=kontaktAnfahrt</loc>
+      <lastmod>2009-11-07</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+   </url> 
+</urlset> 

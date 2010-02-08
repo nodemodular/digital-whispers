@@ -1,0 +1,24 @@
+html, body {
+	margin: 100px;
+	padding: 0;
+}
+
+body {
+	font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+a#upload_button {
+	display: block;
+	width: 100px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	text-align: center;
+	border: 1px solid #666;
+	background-color: #eee;
+}
+
+a#upload_button.hover {
+	border: 1px solid #333;
+	background-color: #ddd;
+}
