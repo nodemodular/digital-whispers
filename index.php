@@ -1,20 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-  <title>digital whispers</title>
-  
-  <link href="css/format.css" media="screen" rel="Stylesheet" type="text/css"/>
-	<script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
-    <script type="text/javascript" src="js/ajaxupload.js"></script>
-	<script type="text/javascript" src="js/functions.js"></script>	
+<?php
 
-</head>
-<body>
-	<div id="wrap">
-		<a id="upload_button">your file</a>
-		
-	<div id="loader"></div>	
+// put full path to Smarty.class.php
+require('lib/smarty/Smarty.class.php');
+$smarty = new Smarty();
 
-	</div>
-</body>
+$smarty->template_dir = 'smarty/templates';
+$smarty->compile_dir = 'smarty/templates_c';
+$smarty->cache_dir = 'smarty/cache';
+$smarty->config_dir = 'smarty/configs';
+
+$smarty->assign('name', 'Ned');
+$smarty->display('index.tpl');
+
+?>
+
+
+
